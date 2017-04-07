@@ -5,6 +5,10 @@
   "repository": "git@github.com:kevindurb/sprintman.git",
   "author": "Kevin Durbin <kevindurb@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
   "dependencies": {
     "express": "^4.15.2",
     "express-graphql": "^0.6.4",

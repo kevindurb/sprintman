@@ -1,5 +1,1 @@
-module.exports = {
-  ping() {
-    return 'pong';
-  }
-};
+module.exports = (parent, args) => JSON.stringify(args);
