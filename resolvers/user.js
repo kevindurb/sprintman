@@ -1,4 +1,6 @@
-module.exports = () => ({
-  id: 5,
-  name: 'kevin',
-});
+const { getConnection } = require('../db/mdb');
+
+module.exports = () => (
+  getConnection()
+  .then(() => ({ name: 'rawr' }))
+);
