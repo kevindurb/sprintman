@@ -3,7 +3,7 @@ const {
 } = require('graphql');
 
 module.exports = new GraphQLObjectType({
-  name: 'RootQueryType',
+  name: 'Query',
   fields: {
     ping: require('./ping'),
     user: require('./User'),

@@ -4,4 +4,5 @@ const {
 
 module.exports = new GraphQLSchema({
   query: require('./query'),
+  mutation: require('./mutation'),
 });
